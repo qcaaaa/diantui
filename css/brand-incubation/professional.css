@@ -1,0 +1,103 @@
+/* professional_category
+----------------------------------------------- */
+.about{background:#019672;margin-top: 3%}
+.col-md-4{padding:0;}
+.col-md-8{padding-left:4%; box-sizing: border-box;padding-right:0;}
+.col-md-9{padding:0;}
+.col-md-3{padding:0;}
+.row{margin:0 0 3% 0}
+.product-tree{background:#FFF; margin-left:3%;padding:3%;border-radius: 8px;}
+.product-tree h2{font-size:18px;font-weight:700; line-height:180%;padding-left: 10px;}
+.product-tree ul li{background:url("images/cate_ico.png") #efefef 5px center no-repeat;border-radius: 20px; line-height:200%; margin-top:5px; padding-left:12%}
+.product-tree ul li:hover{background:url("images/cate_icov.png") #2cbf95 5px center no-repeat;}
+.product-tree ul li:hover a{color:#fff}
+
+/* -- about -- */
+.about .img img {
+ width: 100%;
+}
+.about h2 {
+ color: #FFF;
+ font-size: 40px;
+ font-weight: 700;
+ margin-top: 3%;	
+}
+.about .desc {
+ color: #1dc9a1;
+ margin: 10px 0 10px 0;
+ line-height: 200%;
+}
+.about .more {
+ text-align: left;
+}
+@media (max-width:992px) {
+ .about .img {
+  margin-bottom: 20px;
+ }
+ .about .more {
+  text-align: center;
+ }
+}
+
+
+.about .more a {
+ display: inline-block;
+ padding: 5px 30px;
+ border: 1px solid #2cbf95;
+ color: #2cbf95;
+}
+.about .more a:hover {
+ border: 1px solid #2cbf95;
+ background-color: #2cbf95;
+ color: #FFF;
+}
+@media (max-width:992px) {
+	#product{margin-top:3%;}	
+ .product-tree{background:#FFF; margin-left:0; margin-top:3%; padding:3%;border-radius: 8px;}
+  #testBox{
+		width: 350px;
+		height: 250px;
+		margin: 0 auto;
+	} 	
+ #footer .copy-right {
+  text-align: center;
+ }
+ .col-md-8{padding-bottom:3%;}	
+}
+
+/* professional
+----------------------------------------------- */
+#professional {
+ padding: 20px 0;
+}
+#professional h1 {
+ color: #333333;
+ font-size: 18px;
+ font-weight: bold;
+ text-align:center;
+}
+#professional h2 {
+ border-bottom: 1px solid #DDD;
+ color:#19B4EA;
+ font-size:16px;
+ padding-bottom:10px;
+ margin-bottom:10px;
+}
+#professional .info {
+ padding: 2px 0 20px 0;
+ color: #999999;
+ font-size: 13px;
+ text-align:center;
+}
+#professional .desc {
+ margin-bottom:20px;
+ font-size:13px;
+ line-height:180%;
+}
+#professional .desc b {
+ font-weight:bold;
+}
+#professional .content {
+ color: #666666;
+ line-height: 180%;
+}
