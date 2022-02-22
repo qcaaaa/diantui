@@ -1726,7 +1726,7 @@ ul.fx-ul{
     cursor: pointer;
 }
 .fx-ul li.fx-top i{
-    background: url("../images1/top.png") no-repeat;
+    background: url("images\index\top.png") no-repeat;
     background-position: center center;
     background-size: auto;
     padding:23px;
