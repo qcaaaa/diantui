@@ -528,7 +528,7 @@ p,span{
         align-items: center;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 15000px){
     .spacing{
         padding: 50px 0;
     }
